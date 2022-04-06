@@ -32,7 +32,7 @@ export default function hDiv() {
                 {
                     let prevImg=document.createElement("img");
                     prevImg.id="prevImg_id1";
-                    prevImg.src=".././src/misc/imgs/cnp.png"
+                    prevImg.src="./src/misc/imgs/cnp.png"
                     prev.append(prevImg);
                 }
             }
