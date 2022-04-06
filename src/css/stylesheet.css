@@ -1,0 +1,142 @@
+* {box-sizing: border-box}
+body {background-color:#191919; color:white; font-style:oblique; scroll-behavior: smooth;}
+/* HDIV */
+#header_id1
+{
+    position: relative;
+}
+#backgroundImg_id1
+{
+    height:896px;
+    width: 100%;
+    border-radius: 5px;
+    position:relative;
+    object-fit:cover;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image:url('.././misc/imgs/bgs/pnc.jpg');
+}
+#logo_id1
+{
+    position:absolute;
+}
+#img_id1
+{
+    height:120px;
+    object-fit:cover;
+    position:absolute;
+}
+#prev_id1
+{
+    position:relative;
+}
+#h3_id1
+{
+    left: 46%;
+    margin-top: 30%;
+    position:absolute;
+    color:white;
+}
+#prevImg_id1
+{
+    left: 42%;
+    margin-top: 36%;
+    border-radius:100px;
+    position:absolute;
+    object-fit:cover;
+    height:200px;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+/* CDIV */
+#container_id1
+{
+    position:relative;
+}
+#background_id1
+{
+    height:350px;
+    width: 100%;
+    border-radius:7px;
+    position:absolute;
+    background-image:linear-gradient(to right,rgb(156, 152, 152),gray,rgb(19, 18, 18));
+    text-align: center;
+}
+#background_id2
+{
+    position: relative;
+}
+#bgImg_id1
+{
+    height:400px;
+    width: 100%;
+    border-radius:7px;
+    object-fit:cover;
+    position:absolute;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image:url('.././misc/imgs/bgs/coffee.jpg');
+}
+#aTitle_id1
+{
+    color:orange;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#desc_id1
+{
+    color:white;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#aButton_id1
+{
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    color:white;
+    background-color:orange;
+}
+#scDiv
+{
+    position:relative;
+}
+#slideshow_container
+{
+    height:1000px;
+    width: 100%;
+    margin-top: 13.2%;
+    border-radius:7px;
+    object-fit:cover;
+    position:relative;
+    transition: opacity 1s;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+#prev, #next 
+{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: 40%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+#prev
+{
+    left:0;
+}
+#next 
+{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+#prev:hover, #next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
