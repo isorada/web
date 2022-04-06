@@ -16,7 +16,7 @@ export default function hDiv() {
                 {
                     let img=document.createElement("img");
                     img.id="img_id1";
-                    img.src="../src/misc/imgs/logos/logo2.png";
+                    img.src="./src/misc/imgs/logos/logo2.png";
                     logo.append(img);
                 }
             }
