@@ -4,6 +4,7 @@ export default function menu() {
     let button=document.createElement("button")
     button.id="mButton"
     button.innerHTML="BROWSE MENU"
+    button.onclick=function(){document.location.href="./pages/menu.html"}
     mDiv.append(button)
     document.body.append(mDiv)
 }

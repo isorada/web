@@ -22,7 +22,7 @@ export default function cDiv() {
                         let button=document.createElement("button");
                         button.id="aButton_id1";
                         button.innerHTML="Learn More";
-                        button.addEventListener("click",function(){document.location.href="./pages/menu.html"});
+                        button.addEventListener("click",function(){document.location.href="./pages/about.html"});
                         mDiv.append(h1,p,button);
                     }
                 }
